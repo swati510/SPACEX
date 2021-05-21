@@ -106,7 +106,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Header title="SpaceX Launch Data" />
+      <Header title="SpaceX Launch Programs" />
       <div className="row">
         <div className=" col sm-10 md-5 lg-2">
           <LaunchDetails
