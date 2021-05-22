@@ -4,12 +4,13 @@
   "version": "4.0.4",
   "license": "MIT",
   "scripts": {
-    "start": "razzle start",
+    "dev": "razzle start",
     "build": "razzle build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start": "NODE_ENV=production node build/server.js",
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "axios": "^0.21.1",
