@@ -1,5 +1,6 @@
 # SpaceX Launch Activity Tracker
 An application to fetch data from SpaceX launch Programs API and display it to the user for better viewability
+Find the link to site at (Deployed Version) https://space-api-fetch.netlify.app/
 
 ## Tech Stack Used
 - React
@@ -14,7 +15,10 @@ An application to fetch data from SpaceX launch Programs API and display it to t
   
 ## Lighthouse Score
 ![image](https://user-images.githubusercontent.com/35968565/119191498-5b0a5380-ba9c-11eb-9ec5-98cb948a7c31.png)
+![image](https://user-images.githubusercontent.com/35968565/119215538-eced7d00-baeb-11eb-9adf-f59aa5222a7b.png)
 
+1. LightHouse score on localhost
+2. Lighthouse score on deployed version on netlify
 
 ## Screenshots for testing functionality
 ![image](https://user-images.githubusercontent.com/35968565/119189402-a8d18c80-ba99-11eb-9ac3-25c3b20b4134.png)
